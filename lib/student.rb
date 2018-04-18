@@ -10,7 +10,7 @@ class Student < User
     end
 
     def knowledge
-      @knowledge
+      knowledge.student
     end
 
 end
