@@ -5,7 +5,7 @@ class Teacher<User
 
   def teach
     binding.pry
-    knowledge.student = self
+    knowledge.student
   end
 
 end
